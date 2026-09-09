@@ -1,7 +1,0 @@
-# Hardcoded to your current VM's public IP.
-# NOTE: if your VM's public IP ever changes (e.g. after a restart, unless
-# you've assigned a Static Public IP in Azure), update this one line to
-# match the new IP and run: docker compose up -d --build caddy
-172.198.75.119.nip.io {
-    reverse_proxy frontend:100
-}
