@@ -1,9 +1,10 @@
 # Environment / secrets
 .env
-.env.local
 .env.development
 .env.production
 .env*.local
+# Allow explicitly for Docker build
+!.env.local
 
 # Dependencies
 node_modules
