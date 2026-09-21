@@ -3,8 +3,6 @@
 .env.development
 .env.production
 .env*.local
-# Allow explicitly for Docker build
-!.env.local
 
 # Dependencies
 node_modules
@@ -12,7 +10,7 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# Next.js
+# Next.js build outputs
 .next
 out
 
